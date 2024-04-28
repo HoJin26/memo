@@ -881,20 +881,23 @@
 
 
 //3월 7일
-class ClassPerson {
-    var name: "Lee"
-    var age: "21"
-    //클래스는 멤버 와이즈 이니셜라이저가 불가능 하기에 기본값을 저장하거나 기본적인 이니셜라이저로 초기화를 해야함
-    deinit {
-        print("ClassPerson 클래스 인스턴스가 소멸됩니다.") //클래스는 참조타입이므로 인스턴스가 소멸될때 deinit 메서드가 호출됨
-    }
-}
-let lee = ClassPerson()
-lee = nil // <- ClassPerson 클래스 인스턴스가 소멸됨
-//클래스는 참조타입이라 더 이상 참조할 필요가 없을때 메모리에서 소멸됨
+//class ClassPerson {
+//    var name: "Lee"
+//    var age: "21"
+//    //클래스는 멤버 와이즈 이니셜라이저가 불가능 하기에 기본값을 저장하거나 기본적인 이니셜라이저로 초기화를 해야함
+//    deinit {
+//        print("ClassPerson 클래스 인스턴스가 소멸됩니다.") //클래스는 참조타입이므로 인스턴스가 소멸될때 deinit 메서드가 호출됨
+//    }
+//}
+//let lee = ClassPerson()
+//lee = nil // <- ClassPerson 클래스 인스턴스가 소멸됨
+////클래스는 참조타입이라 더 이상 참조할 필요가 없을때 메모리에서 소멸됨
+//
+//struct ClassStruct {
+//    var name: String
+//    var age: Int
+//    //구조체는 초기화 구문을 정의하지 않은 경우 자동적으로 멤버별 초기화 구문을 받음
+//}
 
-struct ClassStruct {
-    var name: String
-    var age: Int
-    //구조체는 초기화 구문을 정의하지 않은 경우 자동적으로 멤버별 초기화 구문을 받음
-}
+
+

@@ -47,6 +47,7 @@
 		367AA08B2BB857DA00C82340 /* memoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		367AA08F2BB857DA00C82340 /* memoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoUITests.swift; sourceTree = "<group>"; };
 		367AA0912BB857DA00C82340 /* memoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = memoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36AB945F2BBCEC62006BC052 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +79,7 @@
 		367AA0682BB857D900C82340 = {
 			isa = PBXGroup;
 			children = (
+				36AB945F2BBCEC62006BC052 /* MyPlayground.playground */,
 				3610305D2BB85EB600535252 /* GoogleService-Info.plist */,
 				367AA0732BB857D900C82340 /* memo */,
 				367AA0842BB857DA00C82340 /* memoTests */,
