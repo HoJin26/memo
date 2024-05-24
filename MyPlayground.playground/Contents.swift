@@ -270,11 +270,11 @@
 
 
 //repeat
-//var number = 1
-//repeat {
-//    print(number)
-//    number += 1
-//}while number <= 10
+var number = 1
+repeat {
+    print(number)
+    number += 1
+}while number <= 10
 
 
 //continue
